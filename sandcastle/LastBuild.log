@@ -1,0 +1,394 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shfbBuild product="Sandcastle Help File Builder and Tools" version="2026.3.29.0" projectFile="C:\Users\david\Desktop\Doc BTS2.shfbproj" started="17/05/2026 18:36:39">
+<buildStep step="Initializing">
+The Sandcastle tools are located in &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder&#39;
+Locating components in the following folder(s):
+    C:\Users\david\Desktop
+    C:\ProgramData\EWSoftware\Sandcastle Help File Builder\Components and Plug-Ins
+    C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components
+Using framework reflection data for &#39;.NET Framework 4.8&#39; located in &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Data\.NETFramework&#39;
+Using presentation style &#39;Default2022&#39; located in &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022&#39;
+Loading and initializing plug-ins...
+Website Table of Contents Generator Version 2026.3.29.0
+Copyright &#169; 2006-2026, Eric Woodruff, All Rights Reserved
+-------------------------------
+Clearing any prior web/markdown output...
+</buildStep>
+<buildStep step="ValidatingDocumentationSources">
+Validating and copying documentation source information
+Source: C:\Users\david\Desktop\Atelier pro\Eval2 - Copie\Mediasoft\MediaTek86\bin\Debug\net9.0-windows\MediaTek86.dll
+    Found assembly &#39;C:\Users\david\Desktop\Atelier pro\Eval2 - Copie\Mediasoft\MediaTek86\bin\Debug\net9.0-windows\MediaTek86.dll&#39;
+Source: C:\Users\david\Desktop\Atelier pro\Eval2 - Copie\Mediasoft\MediaTek86\Documentation\MediaTek86.xml
+
+Copying XML comments files
+    C:\Users\david\Desktop\Atelier pro\Eval2 - Copie\Mediasoft\MediaTek86\Documentation\MediaTek86.xml -&gt; C:\Users\david\Desktop\Help\Working\MediaTek86.xml
+</buildStep>
+<buildStep step="GenerateSharedContent">
+Generating shared content files (en-US, Anglais (&#201;tats-Unis))...
+    Last step completed in 00:00:00,0061
+</buildStep>
+<buildStep step="GenerateApiFilter">
+Generating API filter for MRefBuilder...
+    Last step completed in 00:00:00,0138
+</buildStep>
+<buildStep step="GenerateReflectionInfo">
+Generating reflection information...
+[C:\Program Files\Microsoft Visual Studio\2022\Professional\MSBuild\Current\Bin\amd64\MSBuild.exe - GenerateRefInfo-5e054414-7972-4f37-98ea-12cc9671131e.proj]
+La g&#195;&#169;n&#195;&#169;ration a d&#195;&#169;marr&#195;&#169; 17/05/2026 18:38:57.
+
+Projet &quot;C:\Users\david\Desktop\Help\Working\GenerateRefInfo-5e054414-7972-4f37-98ea-12cc9671131e.proj&quot; sur le n&#197;“ud 1 (cibles par d&#195;&#169;faut).
+PrepareForBuild:
+  Cr&#195;&#169;ation du r&#195;&#169;pertoire &quot;obj\Debug\&quot;.
+GenerateRefInfo:
+  Microsoft.Build (v17.12.12+1cce77968bca1366760f361c837ffbc3a6af70f0)
+  &#194;&#169; Microsoft Corporation. All rights reserved.
+  No source code context base path specified.  Source context information is unavailable.
+  Loaded 1 assemblies for reflection and 1 dependency assemblies.
+  Using framework redirect &#39;System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089&#39; in place of &#39;System.Windows.Forms, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089&#39;
+  Using framework redirect &#39;System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089&#39; in place of &#39;System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089&#39;
+MRefBuilder : warning : Ignoring unresolved assembly reference: System.Collections (System.Collections, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a) required by MediaTek86 [C:\Users\david\Desktop\Help\Working\GenerateRefInfo-5e054414-7972-4f37-98ea-12cc9671131e.proj]
+MRefBuilder : warning : Ignoring unresolved assembly reference: System.Data.Common (System.Data.Common, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a) required by MySql.Data [C:\Users\david\Desktop\Help\Working\GenerateRefInfo-5e054414-7972-4f37-98ea-12cc9671131e.proj]
+MRefBuilder : warning : Unexpected parameter type Void.  This may be an issue (missing reference assembly?).  Declaring method: MediaTek86.controleur.Controle.GetLesAbsences(System.Void) [C:\Users\david\Desktop\Help\Working\GenerateRefInfo-5e054414-7972-4f37-98ea-12cc9671131e.proj]
+MRefBuilder : warning : Unexpected parameter type Void.  This may be an issue (missing reference assembly?).  Declaring method: MediaTek86.dal.Access.GetLesAbsences(System.Void) [C:\Users\david\Desktop\Help\Working\GenerateRefInfo-5e054414-7972-4f37-98ea-12cc9671131e.proj]
+  Using framework redirect &#39;System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a&#39; in place of &#39;System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a&#39;
+  Using framework redirect &#39;Accessibility, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a&#39; in place of &#39;Accessibility, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a&#39;
+  Wrote information on 6 namespaces, 14 types, and 146 members
+  Merging duplicate type and member information
+  Merged 0 duplicate type(s) and 0 duplicate member(s)
+G&#195;&#169;n&#195;&#169;ration du projet &quot;C:\Users\david\Desktop\Help\Working\GenerateRefInfo-5e054414-7972-4f37-98ea-12cc9671131e.proj&quot; termin&#195;&#169;e (cibles par d&#195;&#169;faut).
+    Last step completed in 00:00:48,7382
+</buildStep>
+<buildStep step="ApplyDocumentModel">
+Applying document model to reflection output...
+    Last step completed in 00:00:00,3593
+</buildStep>
+<buildStep step="AddApiTopicFilenames">
+Adding topic filenames to API members...
+    Last step completed in 00:00:00,4156
+</buildStep>
+<buildStep step="GenerateApiTopicManifest">
+Generating API topic manifest...
+    Last step completed in 00:00:00,3864
+</buildStep>
+<buildStep step="GenerateNamespaceSummaries">
+Generating namespace summary information...
+    Last step completed in 00:00:00,0664
+</buildStep>
+<buildStep step="CopyAdditionalContent">
+Copying additional content files...
+No additional content to copy
+    Last step completed in 00:00:00,0020
+</buildStep>
+<buildStep step="MergeTablesOfContents">
+Merging conceptual and additional tables of contents...
+    Last step completed in 00:00:00,0010
+</buildStep>
+<buildStep step="GenerateIntermediateTableOfContents">
+Generating intermediate table of contents file for API content...
+Generating conceptual content intermediate TOC file...
+    Last step completed in 00:00:00,0727
+</buildStep>
+<buildStep step="CreateBuildAssemblerConfigs">
+Creating Sandcastle configuration files...
+    Last step completed in 00:00:00,2572
+</buildStep>
+<buildStep step="CombiningIntermediateTocFiles">
+Combining conceptual and API intermediate TOC files...
+    Last step completed in 00:00:00,0115
+</buildStep>
+<buildStep step="MergeCustomConfigs">
+Merging custom build component configurations
+C:\Users\david\Desktop\Help\Working\BuildAssembler.config
+  Updating reference topic configurations.
+  No conceptual content.  Removing conceptual content components.
+    Last step completed in 00:00:00,0257
+</buildStep>
+<buildStep step="BuildTopics">
+Building help topics...
+<plugIn name="Website Table of Contents Generator" behavior="Before" priority="1000">
+Loading TOC info and adding unique IDs to parent nodes
+</plugIn>Loading configuration...
+Processing topics...
+SHFB: Warning BE0066: ShowMissingComponent: [N:MediaTek86] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [T:MediaTek86.Program] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MediaTek86.Program.Main] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [N:MediaTek86.bddmanager] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MediaTek86.bddmanager.BddManager.#ctor(System.String)] Missing &lt;param name=&quot;stringConnect&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTek86.bddmanager.BddManager.command] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [F:MediaTek86.bddmanager.BddManager.command] Unknown reference link target &#39;T:MySql.Data.MySqlClient.MySqlCommand&#39;.
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTek86.bddmanager.BddManager.connection] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [F:MediaTek86.bddmanager.BddManager.connection] Unknown reference link target &#39;T:MySql.Data.MySqlClient.MySqlConnection&#39;.
+SHFB: Warning BE0066: ShowMissingComponent: [M:MediaTek86.bddmanager.BddManager.Field(System.String)] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MediaTek86.bddmanager.BddManager.Field(System.String)] Missing &lt;param name=&quot;stringField&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MediaTek86.bddmanager.BddManager.GetInstance(System.String)] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MediaTek86.bddmanager.BddManager.GetInstance(System.String)] Missing &lt;param name=&quot;stringConnect&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTek86.bddmanager.BddManager.instance] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MediaTek86.bddmanager.BddManager.Read] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTek86.bddmanager.BddManager.reader] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [F:MediaTek86.bddmanager.BddManager.reader] Unknown reference link target &#39;T:MySql.Data.MySqlClient.MySqlDataReader&#39;.
+SHFB: Warning BE0066: ShowMissingComponent: [M:MediaTek86.bddmanager.BddManager.ReqSelect(System.String)] Missing &lt;param name=&quot;stringQuery&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MediaTek86.bddmanager.BddManager.ReqUpdate(System.String)] Missing &lt;param name=&quot;stringQuery&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [N:MediaTek86.controleur] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MediaTek86.controleur.Controle.AddAbsence(MediaTek86.modele.Absence)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MediaTek86.controleur.Controle.AddAbsence(MediaTek86.modele.Absence)] Missing &lt;param name=&quot;absence&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MediaTek86.controleur.Controle.AddPersonnel(MediaTek86.modele.Personnel)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MediaTek86.controleur.Controle.AddPersonnel(MediaTek86.modele.Personnel)] Missing &lt;param name=&quot;personnel&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MediaTek86.controleur.Controle.ControleAuthentification(System.String,System.String)] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MediaTek86.controleur.Controle.ControleAuthentification(System.String,System.String)] Missing &lt;param name=&quot;login&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MediaTek86.controleur.Controle.ControleAuthentification(System.String,System.String)] Missing &lt;param name=&quot;pwd&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MediaTek86.controleur.Controle.DelAbsence(MediaTek86.modele.Absence)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MediaTek86.controleur.Controle.DelAbsence(MediaTek86.modele.Absence)] Missing &lt;param name=&quot;absence&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MediaTek86.controleur.Controle.DelPersonnel(MediaTek86.modele.Personnel)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MediaTek86.controleur.Controle.DelPersonnel(MediaTek86.modele.Personnel)] Missing &lt;param name=&quot;personnel&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTek86.controleur.Controle.frmAuth] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTek86.controleur.Controle.frmGestion] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MediaTek86.controleur.Controle.GetLesAbsences(System.Void)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MediaTek86.controleur.Controle.GetLesAbsences(System.Void)] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MediaTek86.controleur.Controle.GetLesAbsences(System.Void)] Missing &lt;param name=&quot;personnel&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MediaTek86.controleur.Controle.GetLesMotifs] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MediaTek86.controleur.Controle.GetLesMotifs] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MediaTek86.controleur.Controle.GetLesPersonnels] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MediaTek86.controleur.Controle.GetLesPersonnels] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MediaTek86.controleur.Controle.GetLesServices] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MediaTek86.controleur.Controle.GetLesServices] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MediaTek86.controleur.Controle.UpdateAbsence(MediaTek86.modele.Absence,MediaTek86.modele.Absence)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MediaTek86.controleur.Controle.UpdateAbsence(MediaTek86.modele.Absence,MediaTek86.modele.Absence)] Missing &lt;param name=&quot;ancienne&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MediaTek86.controleur.Controle.UpdateAbsence(MediaTek86.modele.Absence,MediaTek86.modele.Absence)] Missing &lt;param name=&quot;nouvelle&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MediaTek86.controleur.Controle.UpdatePersonnel(MediaTek86.modele.Personnel)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MediaTek86.controleur.Controle.UpdatePersonnel(MediaTek86.modele.Personnel)] Missing &lt;param name=&quot;personnel&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [N:MediaTek86.dal] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MediaTek86.dal.Access.AddAbsence(MediaTek86.modele.Absence)] Missing &lt;param name=&quot;absence&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MediaTek86.dal.Access.AddPersonnel(MediaTek86.modele.Personnel)] Missing &lt;param name=&quot;personnel&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MediaTek86.dal.Access.ControleAuthentification(System.String,System.String)] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MediaTek86.dal.Access.ControleAuthentification(System.String,System.String)] Missing &lt;param name=&quot;login&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MediaTek86.dal.Access.ControleAuthentification(System.String,System.String)] Missing &lt;param name=&quot;pwd&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MediaTek86.dal.Access.DelAbsence(MediaTek86.modele.Absence)] Missing &lt;param name=&quot;absence&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MediaTek86.dal.Access.DelPersonnel(MediaTek86.modele.Personnel)] Missing &lt;param name=&quot;personnel&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MediaTek86.dal.Access.GetInstance] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MediaTek86.dal.Access.GetLesAbsences(System.Void)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MediaTek86.dal.Access.GetLesAbsences(System.Void)] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MediaTek86.dal.Access.GetLesAbsences(System.Void)] Missing &lt;param name=&quot;personnel&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MediaTek86.dal.Access.GetLesMotifs] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MediaTek86.dal.Access.GetLesPersonnels] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MediaTek86.dal.Access.GetLesServices] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTek86.dal.Access.instance] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MediaTek86.dal.Access.UpdateAbsence(MediaTek86.modele.Absence,MediaTek86.modele.Absence)] Missing &lt;param name=&quot;ancienne&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MediaTek86.dal.Access.UpdateAbsence(MediaTek86.modele.Absence,MediaTek86.modele.Absence)] Missing &lt;param name=&quot;nouvelle&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MediaTek86.dal.Access.UpdatePersonnel(MediaTek86.modele.Personnel)] Missing &lt;param name=&quot;personnel&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [N:MediaTek86.modele] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MediaTek86.modele.Absence.#ctor(System.Int32,System.DateTime,System.DateTime,System.Int32,System.String)] Missing &lt;param name=&quot;idpersonnel&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MediaTek86.modele.Absence.#ctor(System.Int32,System.DateTime,System.DateTime,System.Int32,System.String)] Missing &lt;param name=&quot;datedebut&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MediaTek86.modele.Absence.#ctor(System.Int32,System.DateTime,System.DateTime,System.Int32,System.String)] Missing &lt;param name=&quot;datefin&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MediaTek86.modele.Absence.#ctor(System.Int32,System.DateTime,System.DateTime,System.Int32,System.String)] Missing &lt;param name=&quot;idmotif&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MediaTek86.modele.Absence.#ctor(System.Int32,System.DateTime,System.DateTime,System.Int32,System.String)] Missing &lt;param name=&quot;motif&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:MediaTek86.modele.Absence.Datedebut] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:MediaTek86.modele.Absence.Datefin] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:MediaTek86.modele.Absence.Idmotif] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:MediaTek86.modele.Absence.Idpersonnel] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:MediaTek86.modele.Absence.Motif] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MediaTek86.modele.Motif.#ctor(System.Int32,System.String)] Missing &lt;param name=&quot;idmotif&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MediaTek86.modele.Motif.#ctor(System.Int32,System.String)] Missing &lt;param name=&quot;libelle&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:MediaTek86.modele.Motif.Idmotif] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:MediaTek86.modele.Motif.Libelle] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MediaTek86.modele.Motif.ToString] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MediaTek86.modele.Personnel.#ctor(System.Int32,System.String,System.String,System.String,System.String,System.Int32,System.String)] Missing &lt;param name=&quot;idpersonnel&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MediaTek86.modele.Personnel.#ctor(System.Int32,System.String,System.String,System.String,System.String,System.Int32,System.String)] Missing &lt;param name=&quot;nom&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MediaTek86.modele.Personnel.#ctor(System.Int32,System.String,System.String,System.String,System.String,System.Int32,System.String)] Missing &lt;param name=&quot;prenom&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MediaTek86.modele.Personnel.#ctor(System.Int32,System.String,System.String,System.String,System.String,System.Int32,System.String)] Missing &lt;param name=&quot;tel&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MediaTek86.modele.Personnel.#ctor(System.Int32,System.String,System.String,System.String,System.String,System.Int32,System.String)] Missing &lt;param name=&quot;mail&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MediaTek86.modele.Personnel.#ctor(System.Int32,System.String,System.String,System.String,System.String,System.Int32,System.String)] Missing &lt;param name=&quot;idservice&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MediaTek86.modele.Personnel.#ctor(System.Int32,System.String,System.String,System.String,System.String,System.Int32,System.String)] Missing &lt;param name=&quot;service&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:MediaTek86.modele.Personnel.Idpersonnel] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:MediaTek86.modele.Personnel.Idservice] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:MediaTek86.modele.Personnel.Mail] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:MediaTek86.modele.Personnel.Nom] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:MediaTek86.modele.Personnel.Prenom] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:MediaTek86.modele.Personnel.Service] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:MediaTek86.modele.Personnel.Tel] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MediaTek86.modele.Responsable.#ctor(System.String,System.String)] Missing &lt;param name=&quot;login&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MediaTek86.modele.Responsable.#ctor(System.String,System.String)] Missing &lt;param name=&quot;pwd&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:MediaTek86.modele.Responsable.Login] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:MediaTek86.modele.Responsable.Pwd] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MediaTek86.modele.Service.#ctor(System.Int32,System.String)] Missing &lt;param name=&quot;idservice&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MediaTek86.modele.Service.#ctor(System.Int32,System.String)] Missing &lt;param name=&quot;nom&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:MediaTek86.modele.Service.Idservice] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [P:MediaTek86.modele.Service.Nom] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MediaTek86.modele.Service.ToString] Missing &lt;returns&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [N:MediaTek86.vue] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [T:MediaTek86.vue.FrmAbsence] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MediaTek86.vue.FrmAbsence.#ctor(MediaTek86.controleur.Controle,MediaTek86.modele.Personnel)] Missing &lt;param name=&quot;controle&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MediaTek86.vue.FrmAbsence.#ctor(MediaTek86.controleur.Controle,MediaTek86.modele.Personnel)] Missing &lt;param name=&quot;personnel&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTek86.vue.FrmAbsence.btnAjouter] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MediaTek86.vue.FrmAbsence.btnAjouter_Click(System.Object,System.EventArgs)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MediaTek86.vue.FrmAbsence.btnAjouter_Click(System.Object,System.EventArgs)] Missing &lt;param name=&quot;sender&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MediaTek86.vue.FrmAbsence.btnAjouter_Click(System.Object,System.EventArgs)] Missing &lt;param name=&quot;e&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTek86.vue.FrmAbsence.btnModifier] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MediaTek86.vue.FrmAbsence.btnModifier_Click(System.Object,System.EventArgs)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MediaTek86.vue.FrmAbsence.btnModifier_Click(System.Object,System.EventArgs)] Missing &lt;param name=&quot;sender&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MediaTek86.vue.FrmAbsence.btnModifier_Click(System.Object,System.EventArgs)] Missing &lt;param name=&quot;e&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTek86.vue.FrmAbsence.btnSupprimer] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MediaTek86.vue.FrmAbsence.btnSupprimer_Click(System.Object,System.EventArgs)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MediaTek86.vue.FrmAbsence.btnSupprimer_Click(System.Object,System.EventArgs)] Missing &lt;param name=&quot;sender&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MediaTek86.vue.FrmAbsence.btnSupprimer_Click(System.Object,System.EventArgs)] Missing &lt;param name=&quot;e&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTek86.vue.FrmAbsence.controle] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTek86.vue.FrmAbsence.dgvAbsences] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MediaTek86.vue.FrmAbsence.InitializeComponent] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTek86.vue.FrmAbsence.lblTitre] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTek86.vue.FrmAbsence.personnel] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [T:MediaTek86.vue.FrmAjoutAbsence] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MediaTek86.vue.FrmAjoutAbsence.#ctor(MediaTek86.controleur.Controle,MediaTek86.vue.FrmAbsence,MediaTek86.modele.Personnel)] Missing &lt;param name=&quot;controle&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MediaTek86.vue.FrmAjoutAbsence.#ctor(MediaTek86.controleur.Controle,MediaTek86.vue.FrmAbsence,MediaTek86.modele.Personnel)] Missing &lt;param name=&quot;parent&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MediaTek86.vue.FrmAjoutAbsence.#ctor(MediaTek86.controleur.Controle,MediaTek86.vue.FrmAbsence,MediaTek86.modele.Personnel)] Missing &lt;param name=&quot;personnel&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MediaTek86.vue.FrmAjoutAbsence.#ctor(MediaTek86.controleur.Controle,MediaTek86.vue.FrmAbsence,MediaTek86.modele.Personnel,MediaTek86.modele.Absence)] Missing &lt;param name=&quot;controle&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MediaTek86.vue.FrmAjoutAbsence.#ctor(MediaTek86.controleur.Controle,MediaTek86.vue.FrmAbsence,MediaTek86.modele.Personnel,MediaTek86.modele.Absence)] Missing &lt;param name=&quot;parent&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MediaTek86.vue.FrmAjoutAbsence.#ctor(MediaTek86.controleur.Controle,MediaTek86.vue.FrmAbsence,MediaTek86.modele.Personnel,MediaTek86.modele.Absence)] Missing &lt;param name=&quot;personnel&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MediaTek86.vue.FrmAjoutAbsence.#ctor(MediaTek86.controleur.Controle,MediaTek86.vue.FrmAbsence,MediaTek86.modele.Personnel,MediaTek86.modele.Absence)] Missing &lt;param name=&quot;absence&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTek86.vue.FrmAjoutAbsence.absenceModif] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTek86.vue.FrmAjoutAbsence.btnAnnuler] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MediaTek86.vue.FrmAjoutAbsence.btnAnnuler_Click(System.Object,System.EventArgs)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MediaTek86.vue.FrmAjoutAbsence.btnAnnuler_Click(System.Object,System.EventArgs)] Missing &lt;param name=&quot;sender&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MediaTek86.vue.FrmAjoutAbsence.btnAnnuler_Click(System.Object,System.EventArgs)] Missing &lt;param name=&quot;e&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTek86.vue.FrmAjoutAbsence.btnEnregistrer] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MediaTek86.vue.FrmAjoutAbsence.btnEnregistrer_Click(System.Object,System.EventArgs)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MediaTek86.vue.FrmAjoutAbsence.btnEnregistrer_Click(System.Object,System.EventArgs)] Missing &lt;param name=&quot;sender&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MediaTek86.vue.FrmAjoutAbsence.btnEnregistrer_Click(System.Object,System.EventArgs)] Missing &lt;param name=&quot;e&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTek86.vue.FrmAjoutAbsence.cbxMotif] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTek86.vue.FrmAjoutAbsence.controle] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTek86.vue.FrmAjoutAbsence.dtpDebut] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTek86.vue.FrmAjoutAbsence.dtpFin] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MediaTek86.vue.FrmAjoutAbsence.InitializeComponent] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTek86.vue.FrmAjoutAbsence.lblDebut] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTek86.vue.FrmAjoutAbsence.lblFin] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTek86.vue.FrmAjoutAbsence.lblMotif] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTek86.vue.FrmAjoutAbsence.parent] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTek86.vue.FrmAjoutAbsence.personnel] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MediaTek86.vue.FrmAjoutAbsence.RemplirChamps] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MediaTek86.vue.FrmAjoutAbsence.RemplirMotifs] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [T:MediaTek86.vue.FrmAuthentification] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MediaTek86.vue.FrmAuthentification.#ctor(MediaTek86.controleur.Controle)] Missing &lt;param name=&quot;controle&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTek86.vue.FrmAuthentification.btnConnexion] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MediaTek86.vue.FrmAuthentification.btnConnexion_Click(System.Object,System.EventArgs)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MediaTek86.vue.FrmAuthentification.btnConnexion_Click(System.Object,System.EventArgs)] Missing &lt;param name=&quot;sender&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MediaTek86.vue.FrmAuthentification.btnConnexion_Click(System.Object,System.EventArgs)] Missing &lt;param name=&quot;e&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTek86.vue.FrmAuthentification.controle] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MediaTek86.vue.FrmAuthentification.InitializeComponent] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTek86.vue.FrmAuthentification.lblLogin] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTek86.vue.FrmAuthentification.lblPwd] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTek86.vue.FrmAuthentification.lblTitre] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTek86.vue.FrmAuthentification.txtLogin] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTek86.vue.FrmAuthentification.txtPwd] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [T:MediaTek86.vue.FrmGestion] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MediaTek86.vue.FrmGestion.#ctor(MediaTek86.controleur.Controle)] Missing &lt;param name=&quot;controle&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTek86.vue.FrmGestion.btnAbsences] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MediaTek86.vue.FrmGestion.btnAbsences_Click(System.Object,System.EventArgs)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MediaTek86.vue.FrmGestion.btnAbsences_Click(System.Object,System.EventArgs)] Missing &lt;param name=&quot;sender&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MediaTek86.vue.FrmGestion.btnAbsences_Click(System.Object,System.EventArgs)] Missing &lt;param name=&quot;e&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTek86.vue.FrmGestion.btnAjouter] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MediaTek86.vue.FrmGestion.btnAjouter_Click(System.Object,System.EventArgs)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MediaTek86.vue.FrmGestion.btnAjouter_Click(System.Object,System.EventArgs)] Missing &lt;param name=&quot;sender&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MediaTek86.vue.FrmGestion.btnAjouter_Click(System.Object,System.EventArgs)] Missing &lt;param name=&quot;e&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTek86.vue.FrmGestion.btnModifier] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MediaTek86.vue.FrmGestion.btnModifier_Click(System.Object,System.EventArgs)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MediaTek86.vue.FrmGestion.btnModifier_Click(System.Object,System.EventArgs)] Missing &lt;param name=&quot;sender&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MediaTek86.vue.FrmGestion.btnModifier_Click(System.Object,System.EventArgs)] Missing &lt;param name=&quot;e&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTek86.vue.FrmGestion.btnSupprimer] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MediaTek86.vue.FrmGestion.btnSupprimer_Click(System.Object,System.EventArgs)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MediaTek86.vue.FrmGestion.btnSupprimer_Click(System.Object,System.EventArgs)] Missing &lt;param name=&quot;sender&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MediaTek86.vue.FrmGestion.btnSupprimer_Click(System.Object,System.EventArgs)] Missing &lt;param name=&quot;e&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTek86.vue.FrmGestion.controle] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTek86.vue.FrmGestion.dgvPersonnel] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MediaTek86.vue.FrmGestion.InitializeComponent] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTek86.vue.FrmGestion.lblTitre] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [T:MediaTek86.vue.FrmPersonnel] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MediaTek86.vue.FrmPersonnel.#ctor(MediaTek86.controleur.Controle,MediaTek86.vue.FrmGestion)] Missing &lt;param name=&quot;controle&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MediaTek86.vue.FrmPersonnel.#ctor(MediaTek86.controleur.Controle,MediaTek86.vue.FrmGestion)] Missing &lt;param name=&quot;parent&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MediaTek86.vue.FrmPersonnel.#ctor(MediaTek86.controleur.Controle,MediaTek86.vue.FrmGestion,MediaTek86.modele.Personnel)] Missing &lt;param name=&quot;controle&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MediaTek86.vue.FrmPersonnel.#ctor(MediaTek86.controleur.Controle,MediaTek86.vue.FrmGestion,MediaTek86.modele.Personnel)] Missing &lt;param name=&quot;parent&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MediaTek86.vue.FrmPersonnel.#ctor(MediaTek86.controleur.Controle,MediaTek86.vue.FrmGestion,MediaTek86.modele.Personnel)] Missing &lt;param name=&quot;p&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTek86.vue.FrmPersonnel.btnAnnuler] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MediaTek86.vue.FrmPersonnel.btnAnnuler_Click(System.Object,System.EventArgs)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MediaTek86.vue.FrmPersonnel.btnAnnuler_Click(System.Object,System.EventArgs)] Missing &lt;param name=&quot;sender&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MediaTek86.vue.FrmPersonnel.btnAnnuler_Click(System.Object,System.EventArgs)] Missing &lt;param name=&quot;e&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTek86.vue.FrmPersonnel.btnEnregistrer] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MediaTek86.vue.FrmPersonnel.btnEnregistrer_Click(System.Object,System.EventArgs)] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MediaTek86.vue.FrmPersonnel.btnEnregistrer_Click(System.Object,System.EventArgs)] Missing &lt;param name=&quot;sender&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MediaTek86.vue.FrmPersonnel.btnEnregistrer_Click(System.Object,System.EventArgs)] Missing &lt;param name=&quot;e&quot;/&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTek86.vue.FrmPersonnel.cbxService] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTek86.vue.FrmPersonnel.controle] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MediaTek86.vue.FrmPersonnel.InitializeComponent] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTek86.vue.FrmPersonnel.lblMail] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTek86.vue.FrmPersonnel.lblNom] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTek86.vue.FrmPersonnel.lblPrenom] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTek86.vue.FrmPersonnel.lblService] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTek86.vue.FrmPersonnel.lblTel] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTek86.vue.FrmPersonnel.parent] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTek86.vue.FrmPersonnel.personnelModif] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [M:MediaTek86.vue.FrmPersonnel.RemplirServices] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTek86.vue.FrmPersonnel.txtMail] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTek86.vue.FrmPersonnel.txtNom] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTek86.vue.FrmPersonnel.txtPrenom] Missing &lt;summary&gt; documentation
+SHFB: Warning BE0066: ShowMissingComponent: [F:MediaTek86.vue.FrmPersonnel.txtTel] Missing &lt;summary&gt; documentation
+Processed 206 topic(s)
+219 warning(s)
+CopyFromIndexComponent: &quot;reflection&quot; in-memory cache entries used: 4 of 15.
+CopyFromIndexComponent: &quot;comments&quot; in-memory cache entries used: 1 of 30.
+<plugIn name="Website Table of Contents Generator" behavior="After" priority="1000">
+Generating TOC fragment files
+</plugIn>    Last step completed in 00:00:05,3151
+</buildStep>
+<buildStep step="CopyStandardHelpContent">
+Copying standard help content...
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\css\bulma.css -&gt; C:\Users\david\Desktop\Help\Working\Output\Website\css\bulma.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\css\bulma.min.css -&gt; C:\Users\david\Desktop\Help\Working\Output\Website\css\bulma.min.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\css\font-awesome.css -&gt; C:\Users\david\Desktop\Help\Working\Output\Website\css\font-awesome.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\css\font-awesome.min.css -&gt; C:\Users\david\Desktop\Help\Working\Output\Website\css\font-awesome.min.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\css\ja-JP.css -&gt; C:\Users\david\Desktop\Help\Working\Output\Website\css\ja-JP.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\css\ko-KR.css -&gt; C:\Users\david\Desktop\Help\Working\Output\Website\css\ko-KR.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\css\presentationStyle.css -&gt; C:\Users\david\Desktop\Help\Working\Output\Website\css\presentationStyle.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\css\vs.min.css -&gt; C:\Users\david\Desktop\Help\Working\Output\Website\css\vs.min.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\css\zh-CN.css -&gt; C:\Users\david\Desktop\Help\Working\Output\Website\css\zh-CN.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\css\zh-TW.css -&gt; C:\Users\david\Desktop\Help\Working\Output\Website\css\zh-TW.css
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\icons\favicon.ico -&gt; C:\Users\david\Desktop\Help\Working\Output\Website\icons\favicon.ico
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\scripts\clipboard.min.js -&gt; C:\Users\david\Desktop\Help\Working\Output\Website\scripts\clipboard.min.js
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\scripts\highlight.min.js -&gt; C:\Users\david\Desktop\Help\Working\Output\Website\scripts\highlight.min.js
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\scripts\jquery-3.7.1.min.js -&gt; C:\Users\david\Desktop\Help\Working\Output\Website\scripts\jquery-3.7.1.min.js
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\scripts\presentationStyle.js -&gt; C:\Users\david\Desktop\Help\Working\Output\Website\scripts\presentationStyle.js
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\webfonts\fa-brands-400.ttf -&gt; C:\Users\david\Desktop\Help\Working\Output\Website\webfonts\fa-brands-400.ttf
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\webfonts\fa-brands-400.woff2 -&gt; C:\Users\david\Desktop\Help\Working\Output\Website\webfonts\fa-brands-400.woff2
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\webfonts\fa-regular-400.ttf -&gt; C:\Users\david\Desktop\Help\Working\Output\Website\webfonts\fa-regular-400.ttf
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\webfonts\fa-regular-400.woff2 -&gt; C:\Users\david\Desktop\Help\Working\Output\Website\webfonts\fa-regular-400.woff2
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\webfonts\fa-solid-900.ttf -&gt; C:\Users\david\Desktop\Help\Working\Output\Website\webfonts\fa-solid-900.ttf
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\webfonts\fa-solid-900.woff2 -&gt; C:\Users\david\Desktop\Help\Working\Output\Website\webfonts\fa-solid-900.woff2
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\webfonts\fa-v4compatibility.ttf -&gt; C:\Users\david\Desktop\Help\Working\Output\Website\webfonts\fa-v4compatibility.ttf
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\webfonts\fa-v4compatibility.woff2 -&gt; C:\Users\david\Desktop\Help\Working\Output\Website\webfonts\fa-v4compatibility.woff2
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\RootWebsiteContent\GeneralError.html -&gt; C:\Users\david\Desktop\Help\Working\Output\Website\GeneralError.html
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\RootWebsiteContent\index.html -&gt; C:\Users\david\Desktop\Help\Working\Output\Website\index.html
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\RootWebsiteContent\PageNotFound.html -&gt; C:\Users\david\Desktop\Help\Working\Output\Website\PageNotFound.html
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\RootWebsiteContent\search.html -&gt; C:\Users\david\Desktop\Help\Working\Output\Website\search.html
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\RootWebsiteContent\SearchHelp.aspx -&gt; C:\Users\david\Desktop\Help\Working\Output\Website\SearchHelp.aspx
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\RootWebsiteContent\SearchHelp.inc.php -&gt; C:\Users\david\Desktop\Help\Working\Output\Website\SearchHelp.inc.php
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\RootWebsiteContent\SearchHelp.php -&gt; C:\Users\david\Desktop\Help\Working\Output\Website\SearchHelp.php
+C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\RootWebsiteContent\Web.Config -&gt; C:\Users\david\Desktop\Help\Working\Output\Website\Web.Config
+    Last step completed in 00:00:00,1916
+</buildStep>
+<buildStep step="GenerateFullTextIndex">
+Generating full-text index for the website...
+
+    Last step completed in 00:00:00,7828
+</buildStep>
+<buildStep step="CopyingWebsiteFiles">
+Copying website files to output folder...
+
+Copied 309 files for the website content
+    Last step completed in 00:00:00,2933
+</buildStep>
+<buildStep step="CleanIntermediates">
+Removing intermediate files...
+    Last step completed in 00:00:00,0580
+</buildStep>
+<buildStep step="Completed">
+
+Build completed successfully at 17/05/2026 18:39:53.  Total time: 00:03:14,1417
+
+</buildStep>
+</shfbBuild>

@@ -1,0 +1,276 @@
+{
+  "source_base_path": "C:/Users/david/Desktop/Atelier pro/Eval2 - Copie/Mediasoft/MediaTek86/Documentation/DocFX",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MediaTek86.bddmanager.BddManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MediaTek86.bddmanager.BddManager.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MediaTek86.bddmanager.BddManager",
+      "Summary": "<p sourcefile=\"api/MediaTek86.bddmanager.BddManager.yml\" sourcestartlinenumber=\"1\">classe singleton pour gerer la connexion MySQL</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MediaTek86.bddmanager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MediaTek86.bddmanager.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MediaTek86.bddmanager",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MediaTek86.controleur.Controle.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MediaTek86.controleur.Controle.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MediaTek86.controleur.Controle",
+      "Summary": "<p sourcefile=\"api/MediaTek86.controleur.Controle.yml\" sourcestartlinenumber=\"1\">Controleur principal de l'appli (MVC)</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MediaTek86.controleur.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MediaTek86.controleur.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MediaTek86.controleur",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MediaTek86.dal.Access.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MediaTek86.dal.Access.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MediaTek86.dal.Access",
+      "Summary": "<p sourcefile=\"api/MediaTek86.dal.Access.yml\" sourcestartlinenumber=\"1\">Classe d'acces aux données (couche DAL)\nfait le lien entre le controleur et la BDD via BddManager</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MediaTek86.dal.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MediaTek86.dal.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MediaTek86.dal",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MediaTek86.modele.Absence.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MediaTek86.modele.Absence.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MediaTek86.modele.Absence",
+      "Summary": "<p sourcefile=\"api/MediaTek86.modele.Absence.yml\" sourcestartlinenumber=\"1\">represente une absence</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MediaTek86.modele.Motif.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MediaTek86.modele.Motif.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MediaTek86.modele.Motif",
+      "Summary": "<p sourcefile=\"api/MediaTek86.modele.Motif.yml\" sourcestartlinenumber=\"1\">represente un motif d'absence</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MediaTek86.modele.Personnel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MediaTek86.modele.Personnel.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MediaTek86.modele.Personnel",
+      "Summary": "<p sourcefile=\"api/MediaTek86.modele.Personnel.yml\" sourcestartlinenumber=\"1\">represente un membre du personnel</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MediaTek86.modele.Responsable.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MediaTek86.modele.Responsable.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MediaTek86.modele.Responsable",
+      "Summary": "<p sourcefile=\"api/MediaTek86.modele.Responsable.yml\" sourcestartlinenumber=\"1\">represente le responsable (pour la connexion)</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MediaTek86.modele.Service.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MediaTek86.modele.Service.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MediaTek86.modele.Service",
+      "Summary": "<p sourcefile=\"api/MediaTek86.modele.Service.yml\" sourcestartlinenumber=\"1\">represente un service (administratif, prêt, etc.)</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MediaTek86.modele.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MediaTek86.modele.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MediaTek86.modele",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MediaTek86.vue.FrmAbsence.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MediaTek86.vue.FrmAbsence.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MediaTek86.vue.FrmAbsence",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MediaTek86.vue.FrmAjoutAbsence.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MediaTek86.vue.FrmAjoutAbsence.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MediaTek86.vue.FrmAjoutAbsence",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MediaTek86.vue.FrmAuthentification.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MediaTek86.vue.FrmAuthentification.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MediaTek86.vue.FrmAuthentification",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MediaTek86.vue.FrmGestion.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MediaTek86.vue.FrmGestion.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MediaTek86.vue.FrmGestion",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MediaTek86.vue.FrmPersonnel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MediaTek86.vue.FrmPersonnel.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MediaTek86.vue.FrmPersonnel",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MediaTek86.vue.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MediaTek86.vue.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "MediaTek86.vue",
+      "Summary": null
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html"
+        },
+        ".json": {
+          "relative_path": "api/toc.json"
+        }
+      },
+      "version": ""
+    }
+  ],
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}

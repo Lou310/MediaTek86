@@ -1,0 +1,219 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>MediaTek86</name>
+    </assembly>
+    <members>
+        <member name="T:MediaTek86.bddmanager.BddManager">
+            <summary>
+            classe singleton pour gerer la connexion MySQL
+            </summary>
+        </member>
+        <member name="M:MediaTek86.bddmanager.BddManager.#ctor(System.String)">
+            <summary>
+            constructeur privé (singleton)
+            </summary>
+        </member>
+        <member name="M:MediaTek86.bddmanager.BddManager.GetInstance(System.String)">
+            <summary>
+            retourne l'instance unique
+            </summary>
+        </member>
+        <member name="M:MediaTek86.bddmanager.BddManager.ReqSelect(System.String)">
+            <summary>
+            execute un SELECT
+            </summary>
+        </member>
+        <member name="M:MediaTek86.bddmanager.BddManager.ReqUpdate(System.String)">
+            <summary>
+            execute un INSERT, UPDATE ou DELETE
+            </summary>
+        </member>
+        <member name="M:MediaTek86.bddmanager.BddManager.Read">
+            <summary>
+            lire la ligne suivante du resultat
+            </summary>
+        </member>
+        <member name="M:MediaTek86.bddmanager.BddManager.Field(System.String)">
+            <summary>
+            recuperer la valeur d'un champ
+            </summary>
+        </member>
+        <member name="M:MediaTek86.bddmanager.BddManager.Close">
+            <summary>
+            fermer le reader
+            </summary>
+        </member>
+        <member name="T:MediaTek86.controleur.Controle">
+            <summary>
+            Controleur principal de l'appli (MVC)
+            </summary>
+        </member>
+        <member name="M:MediaTek86.controleur.Controle.ControleAuthentification(System.String,System.String)">
+            <summary>
+            verifie le login et le mot de passe
+            </summary>
+        </member>
+        <member name="T:MediaTek86.dal.Access">
+            <summary>
+            Classe d'acces aux données (couche DAL)
+            fait le lien entre le controleur et la BDD via BddManager
+            </summary>
+        </member>
+        <member name="F:MediaTek86.dal.Access.connectionString">
+            <summary>
+            chaine de connexion a la BDD (adapter si besoin)
+            </summary>
+        </member>
+        <member name="M:MediaTek86.dal.Access.GetInstance">
+            <summary>
+            singleton
+            </summary>
+        </member>
+        <member name="M:MediaTek86.dal.Access.ControleAuthentification(System.String,System.String)">
+            <summary>
+            verifie l'authentification du responsable
+            </summary>
+        </member>
+        <member name="M:MediaTek86.dal.Access.GetLesPersonnels">
+            <summary>
+            recupere tous les personnels
+            </summary>
+        </member>
+        <member name="M:MediaTek86.dal.Access.AddPersonnel(MediaTek86.modele.Personnel)">
+            <summary>
+            ajoute un personnel dans la bdd
+            </summary>
+        </member>
+        <member name="M:MediaTek86.dal.Access.UpdatePersonnel(MediaTek86.modele.Personnel)">
+            <summary>
+            modifie un personnel
+            </summary>
+        </member>
+        <member name="M:MediaTek86.dal.Access.DelPersonnel(MediaTek86.modele.Personnel)">
+            <summary>
+            supprime un personnel et ses absences
+            </summary>
+        </member>
+        <member name="M:MediaTek86.dal.Access.GetLesServices">
+            <summary>
+            recupere la liste des services
+            </summary>
+        </member>
+        <member name="M:MediaTek86.dal.Access.GetLesAbsences(MediaTek86.modele.Personnel)">
+            <summary>
+            recupere les absences d'un personnel (triés par date decroissante)
+            </summary>
+        </member>
+        <member name="M:MediaTek86.dal.Access.AddAbsence(MediaTek86.modele.Absence)">
+            <summary>
+            ajoute une absence
+            </summary>
+        </member>
+        <member name="M:MediaTek86.dal.Access.UpdateAbsence(MediaTek86.modele.Absence,MediaTek86.modele.Absence)">
+            <summary>
+            modifie une absence existante
+            </summary>
+        </member>
+        <member name="M:MediaTek86.dal.Access.DelAbsence(MediaTek86.modele.Absence)">
+            <summary>
+            supprime une absence
+            </summary>
+        </member>
+        <member name="M:MediaTek86.dal.Access.GetLesMotifs">
+            <summary>
+            recupere la liste des motifs d'absence
+            </summary>
+        </member>
+        <member name="T:MediaTek86.modele.Absence">
+            <summary>
+            represente une absence
+            </summary>
+        </member>
+        <member name="T:MediaTek86.modele.Motif">
+            <summary>
+            represente un motif d'absence
+            </summary>
+        </member>
+        <member name="M:MediaTek86.modele.Motif.ToString">
+            <summary>
+            pour l'affichage dans la combobox
+            </summary>
+        </member>
+        <member name="T:MediaTek86.modele.Personnel">
+            <summary>
+            represente un membre du personnel
+            </summary>
+        </member>
+        <member name="T:MediaTek86.modele.Responsable">
+            <summary>
+            represente le responsable (pour la connexion)
+            </summary>
+        </member>
+        <member name="T:MediaTek86.modele.Service">
+            <summary>
+            represente un service (administratif, prêt, etc.)
+            </summary>
+        </member>
+        <member name="M:MediaTek86.modele.Service.ToString">
+            <summary>
+            pour afficher le nom dans la combobox
+            </summary>
+        </member>
+        <member name="M:MediaTek86.vue.FrmAbsence.RemplirListeAbsences">
+            <summary>
+            remplit le datagridview avec les absences du personnel
+            </summary>
+        </member>
+        <member name="M:MediaTek86.vue.FrmAjoutAbsence.#ctor(MediaTek86.controleur.Controle,MediaTek86.vue.FrmAbsence,MediaTek86.modele.Personnel)">
+            <summary>
+            constructeur pour ajout
+            </summary>
+        </member>
+        <member name="M:MediaTek86.vue.FrmAjoutAbsence.#ctor(MediaTek86.controleur.Controle,MediaTek86.vue.FrmAbsence,MediaTek86.modele.Personnel,MediaTek86.modele.Absence)">
+            <summary>
+            constructeur pour modification
+            </summary>
+        </member>
+        <member name="M:MediaTek86.vue.FrmGestion.RemplirListe">
+            <summary>
+            charge la liste du personnel dans le datagridview
+            </summary>
+        </member>
+        <member name="M:MediaTek86.vue.FrmGestion.RefreshDonnees">
+            <summary>
+            rafraichir la liste apres ajout/modif/suppression
+            </summary>
+        </member>
+        <member name="M:MediaTek86.vue.FrmPersonnel.#ctor(MediaTek86.controleur.Controle,MediaTek86.vue.FrmGestion)">
+            <summary>
+            constructeur pour ajouter
+            </summary>
+        </member>
+        <member name="M:MediaTek86.vue.FrmPersonnel.#ctor(MediaTek86.controleur.Controle,MediaTek86.vue.FrmGestion,MediaTek86.modele.Personnel)">
+            <summary>
+            constructeur pour modifier
+            </summary>
+        </member>
+        <member name="M:MediaTek86.vue.FrmPersonnel.RemplirChamps">
+            <summary>
+            pre-remplit les champs pour la modif
+            </summary>
+        </member>
+        <member name="T:MediaTek86.ApplicationConfiguration">
+            <summary>
+             Bootstrap the application configuration.
+            </summary>
+        </member>
+        <member name="M:MediaTek86.ApplicationConfiguration.Initialize">
+            <summary>
+             Bootstrap the application as follows:
+             <code>
+             global::System.Windows.Forms.Application.EnableVisualStyles();
+             global::System.Windows.Forms.Application.SetCompatibleTextRenderingDefault(false);
+             global::System.Windows.Forms.Application.SetHighDpiMode(HighDpiMode.SystemAware);
+            </code>
+            </summary>
+        </member>
+    </members>
+</doc>
