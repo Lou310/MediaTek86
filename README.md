@@ -34,7 +34,9 @@ Voici un aperçu des différentes interfaces de l'application :
 
 ### Gestion des absences
 ![Gestion Absences](img/7MediatekAbsence.PNG)
+
 *Contrôle de chevauchement lors de l'ajout d'une absence :*
+
 ![Erreur Chevauchement](img/10MediatekChevauchementAbsence.PNG)
 
 ## 3. Diagramme de paquetages
