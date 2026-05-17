@@ -27,6 +27,7 @@ Voici un aperçu des différentes interfaces de l'application :
 
 ### Gestion du personnel (Fenêtre principale)
 ![Gestion Personnel](img/2MediatekFenetrePrincipale.PNG)
+
 *Ajout d'un membre du personnel :*
 ![Ajout Personnel](img/3MediatekAjoutPersonnel.PNG)
 
