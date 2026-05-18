@@ -86,11 +86,29 @@ Le script crée la base mediatek86, les tables, l'utilisateur MySQL et les donn�
 
 > La connexion dans le code utilise root sans mot de passe (config par défaut de WampServer). Si votre config est différente, modifier la chaîne de connexion dans dal/Access.cs.
 
-### Lancer l'application
+### Exécuter l'application à partir du code source
 
-1. Ouvrir Mediasoft.slnx dans Visual Studio 2022
-2. Compiler (Ctrl+Maj+B)
-3. Lancer (F5)
+1. Démarrer WampServer
+2. Ouvrir Mediasoft.slnx dans Visual Studio 2022
+3. Compiler (Ctrl+Maj+B)
+4. Lancer (F5)
+
+### Installer l'application
+
+1. Télécharger le logiciel à partir de https://github.com/Lou310/MediaTek86/releases
+2. Extraire l'archive "Installer_MediaTek86.zip" et exécuter "setup.exe"
+3. Exécuter setup.exe et installer le logiciel
+4. Démarrer WampServer
+5. Ouvrir phpMyAdmin
+6. Aller dans l'onglet SQL
+7. Copier-coller le contenu du fichier create_db_mediatek86.sql
+8. Cliquer sur Exécuter
+9. Démarrer MediaTek86
+
+## Exécuter le logiciel
+
+1. Démarrer WampServer
+2. Lancer MediaSoft86
 
 ### Identifiants de connexion
 
