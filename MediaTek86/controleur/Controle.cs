@@ -35,9 +35,7 @@ namespace MediaTek86.controleur
             return false;
         }
 
-        /// <summary>
-        /// gestion du personnel
-        /// </summary>        
+        //  -- gestion du personnel --
         public List<Personnel> GetLesPersonnels()
         {
             return Access.GetInstance().GetLesPersonnels();
