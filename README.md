@@ -84,7 +84,7 @@ Les formulaires passent toujours par le contrôleur pour accéder aux données.
 
 Le script crée la base mediatek86, les tables, l'utilisateur MySQL et les données de test.
 
-> La connexion dans le code utilise root sans mot de passe (config par défaut de WampServer). Si votre config est différente, modifier la chaîne de connexion dans dal/Access.cs.
+> La connexion dans le code utilise root sans mot de passe (config par défaut de WampServer). Si votre config est différente, modifier la chaîne de connexion (connectionString) dans dal/Access.cs.
 
 ### Exécuter l'application à partir du code source
 
