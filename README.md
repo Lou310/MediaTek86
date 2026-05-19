@@ -23,7 +23,7 @@ L'application comporte 5 fenêtres :
 Voici un aperçu des différentes interfaces de l'application :
 
 ### Fenêtre de connexion
-![Connexion](img/1MediatekLogin.png)
+![Connexion](img/1MediatekLogin.PNG)
 
 ### Gestion du personnel (Fenêtre principale)
 ![Gestion Personnel](img/2MediatekFenetrePrincipale.PNG)
