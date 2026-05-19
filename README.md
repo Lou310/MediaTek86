@@ -113,7 +113,7 @@ Le script crée la base mediatek86, les tables, l'utilisateur MySQL et les donn�
 ### Identifiants de connexion
 
 - Login : admin
-- Mot de passe : admin123
+- Mot de passe : admin
 
 ## 6. Fonctionnalités
 
